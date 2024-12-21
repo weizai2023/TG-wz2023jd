@@ -1,0 +1,260 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+
+proxies:
+  - name: "9.27TG@wz2023jd"
+    type: vless
+    server: stock.hostmonit.com
+    port: 2052
+    uuid: 21ef2919-6799-471f-8eb1-ff6aeef642e5
+    encryption: none
+    security: none
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: 927tg.tzib1cqz.workers.dev
+    udp: true
+    tls: false
+    skip-cert-verify: true
+    fingerprint: randomized
+  
+  - name: "9.5TG@wz2023jd"
+    type: vless
+    server: www.visa.com
+    port: 8880
+    uuid: 7bf65549-e119-4a15-b2b7-1b8e772a9f97
+    encryption: none
+    security: none
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: 95tg.n82w8t3d.workers.dev
+    udp: true
+    tls: false
+    skip-cert-verify: true
+    fingerprint: randomized
+
+  - name: "10.11TG@wz2023jd"
+    type: vless
+    server: stock.hostmonit.com
+    port: 8080
+    uuid: b6e97b8a-1b43-4fa9-ab1b-d0139df07f59
+    encryption: none
+    security: none
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: 11tg.w79kip11.workers.dev
+    udp: true
+    tls: false
+    skip-cert-verify: true
+    fingerprint: randomized
+
+  - name: "10.24TG@wz2023jd"
+    type: vless
+    server: www.visa.com
+    port: 2082
+    uuid: b111c17d-c8a4-4d4d-a417-fa40a020bcc8
+    encryption: none
+    security: none
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: 24tg.hb01i8h0.workers.dev
+    udp: true
+    tls: false
+    skip-cert-verify: true
+    fingerprint: randomized
+
+  - name: "8.20TG@wz2023jd"
+    type: vless
+    server: www.visa.com
+    port: 2052
+    uuid: 8b8b93cf-ad82-4163-9cf3-3e609bed4e6f
+    encryption: none
+    security: none
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: 820tg.adwf54p4.workers.dev
+    udp: true
+    tls: false
+    skip-cert-verify: true
+    fingerprint: randomized
+
+  - name: "8.31TG@wz2023jd"
+    type: vless
+    server: stock.hostmonit.com
+    port: 8080
+    uuid: 4e4fe94d-d9f2-4679-879a-b06fbb28ddf1
+    encryption: none
+    security: none
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: 831tg.na15iwpb.workers.dev
+    udp: true
+    tls: false
+    skip-cert-verify: true
+    fingerprint: randomized
+
+  - name: "8.16TG@wz2023jd"
+    type: vless
+    server: www.ddwhm.com
+    port: 2052
+    uuid: e917db16-e9b4-4aa7-8a77-617f5e82f1f8
+    encryption: none
+    security: none
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: 816tg.3wzxh3.workers.dev
+    udp: true
+    tls: false
+    skip-cert-verify: true
+    fingerprint: randomized
+
+  - name: "9.25TG@wz2023jd"
+    type: vless
+    server: www.visa.com
+    port: 80
+    uuid: 0ff570d3-3452-4990-8144-fd2cb9357e09
+    encryption: none
+    security: none
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: 925tg.s4ua8zqr.workers.dev
+    udp: true
+    tls: false
+    skip-cert-verify: true
+    fingerprint: randomized
+
+  - name: "10.15TG@wz2023jd"
+    type: vless
+    server: www.visa.com
+    port: 80
+    uuid: 5240bfd4-ca6d-4757-8213-a6aab72d734e
+    encryption: none
+    security: none
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: 15tg.ddp6e6aw.workers.dev
+    udp: true
+    tls: false
+    skip-cert-verify: true
+    fingerprint: randomized
+
+  - name: "10.20TG@wz2023jd"
+    type: vless
+    server: www.c333.net
+    port: 2052
+    uuid: 86883d84-162c-42c4-af65-11dd80eb2ffa
+    encryption: none
+    security: none
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: tg20.dnopxqcx.workers.dev
+    udp: true
+    tls: false
+    skip-cert-verify: true
+    fingerprint: randomized
+
+  - name: "11.3TG@wz2023jd"
+    type: vless
+    server: www.visa.com
+    port: 2095
+    uuid: f6a7873b-5d12-48a1-8439-a737b7dcbeab
+    encryption: none
+    security: none
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: 03tg.d8drh4l9.workers.dev
+    udp: true
+    tls: false
+    skip-cert-verify: true
+    fingerprint: randomized
+
+  - name: "11.13TG@wz2023jd"
+    type: vless
+    server: www.visa.com
+    port: 80
+    uuid: 131387aa-4b2a-43aa-bf7c-d94306ba55fb
+    encryption: none
+    security: none
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: 13tg.jpl8xmqb.workers.dev
+    udp: true
+    tls: false
+    skip-cert-verify: true
+    fingerprint: randomized
+
+  - name: "11.21TG@wz2023jd"
+    type: vless
+    server: www.visa.com
+    port: 2082
+    uuid: 33039dbe-8889-42f1-9aeb-ecfbfa2a1640
+    encryption: none
+    security: none
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: 21tg.459tj345.workers.dev
+    udp: true
+    tls: false
+    skip-cert-verify: true
+    fingerprint: randomized
+
+proxy-groups:
+  - name: "Proxy"
+    type: select
+    proxies:
+      - "9.27TG@wz2023jd"
+      - "9.5TG@wz2023jd"
+      - "10.11TG@wz2023jd"
+      - "10.24TG@wz2023jd"
+      - "8.20TG@wz2023jd"
+      - "8.31TG@wz2023jd"
+      - "8.16TG@wz2023jd"
+      - "9.25TG@wz2023jd"
+      - "10.15TG@wz2023jd"
+      - "10.20TG@wz2023jd"
+      - "11.3TG@wz2023jd"
+      - "11.13TG@wz2023jd"
+      - "11.21TG@wz2023jd"
+
+rules:
+  - DOMAIN-SUFFIX,google.com,Proxy
+  - DOMAIN-SUFFIX,youtube.com,Proxy
+  - DOMAIN-SUFFIX,facebook.com,Proxy
+  - DOMAIN-SUFFIX,twitter.com,Proxy
+  - DOMAIN-SUFFIX,instagram.com,Proxy
+  - DOMAIN-SUFFIX,dropbox.com,Proxy
+  - DOMAIN-KEYWORD,google,Proxy
+  - DOMAIN-SUFFIX,edu.cn,DIRECT
+  - DOMAIN-SUFFIX,gov.cn,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,Proxy
